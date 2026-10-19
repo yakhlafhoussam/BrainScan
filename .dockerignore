@@ -1,0 +1,43 @@
+# Version control
+.git/
+
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+notebooks/
+
+# Test cache
+.pytest_cache/
+
+# Dataset (large, not needed at runtime)
+Data/
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+tmp/
+
+# Docker
+Dockerfile
+.dockerignore
+compose.yaml
+
+# Documentation
+README.md
